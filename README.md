@@ -8,9 +8,11 @@
 You are already a pro at making HTTP requests from your Browser to your Server. For instance, when you click a link, submit a form, or enter a new address into your browser bar, you are firing off an HTTP request. You've learned to make your server send back different types of data in text, HTML, JSON, and other formats, and how to redirect the browser to another location.
 
 **Synchronous**
+
 These normal requests freeze the browser's interface, so the user must wait for them to finish before taking any new action. Usually the browser will display an entirely new HTML page to the screen. Since everything must wait for these requests, we call them "Synchronous". That means "no two things can happen at the same time."
 
 **Asynchronous**
+
 As we saw during today's lecture, your browser can also make requests in the background. These requests do not block or freeze the user's interface, and other operations can take place while they are running. We refer to them as "Asynchronous" because of this trait. They have the ability to replace the entire screen, or just update a small section of the page. This enables the construction of more fluid, "desktop-application-like" user experiences. For example, Trello https://trello.com/ (an online organizational tool), allows the creation and re-ordering of cards without any full page refreshes. Asynchronous requests are everywhere in modern web applications.
 
 You will often hear this style of JavaScript-driven Asynchronous requests referred to as AJAX.
@@ -39,6 +41,7 @@ Each time you use one of these paths, you will have to use the fully-qualified U
 - Open your browser's "Developer Tools/Inspector". Navigate to the "Network" tab. This must be kept open for the duration of the assignment.
 
 **Knowledge Check**
+
 In your browser's address bar, type the "root path" of the server we have setup at http://first-ajax-api.herokuapp.com/, and hit enter. You can deeply inspect each request by clicking on it. You can return to the summary view by clicking the (x) to the left of the Headers tab. Use these tools to answer the following question:
 
 1. What HTTP method did your browser use to make the request?
